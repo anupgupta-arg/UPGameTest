@@ -1,0 +1,11 @@
+framework module AMCalculatorTextField {
+  umbrella header "AMCalculatorTextField.h"
+
+  export *
+  module * { export * }
+}
+
+module AMCalculatorTextField.Swift {
+    header "AMCalculatorTextField-Swift.h"
+    requires objc
+}
